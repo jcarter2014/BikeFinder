@@ -15,6 +15,9 @@
 		DE3CB3FE2005D3560062429D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3CB3FD2005D3560062429D /* CoreLocation.framework */; };
 		DE467E9D2029439100EB1583 /* BikeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE467E9C2029439100EB1583 /* BikeTableViewController.swift */; };
 		DE467E9F203287E500EB1583 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE467E9E203287E500EB1583 /* TableViewCell.swift */; };
+		DE64F05921069ADB00F6907A /* BikeFinder Screenshot 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F05621069ADA00F6907A /* BikeFinder Screenshot 3.png */; };
+		DE64F05A21069ADB00F6907A /* BikeFinder Screenshot 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F05721069ADA00F6907A /* BikeFinder Screenshot 2.png */; };
+		DE64F05B21069ADB00F6907A /* BikeFinder Screenshot 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F05821069ADB00F6907A /* BikeFinder Screenshot 1.png */; };
 		DEB64B24200720BB002D6B70 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE3CB3F72005D09C0062429D /* Info.plist */; };
 		DEB64B25200720CB002D6B70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3CB3ED2005D09C0062429D /* ViewController.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +35,9 @@
 		DE3CB3FD2005D3560062429D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		DE467E9C2029439100EB1583 /* BikeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTableViewController.swift; sourceTree = "<group>"; };
 		DE467E9E203287E500EB1583 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DE64F05621069ADA00F6907A /* BikeFinder Screenshot 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BikeFinder Screenshot 3.png"; sourceTree = "<group>"; };
+		DE64F05721069ADA00F6907A /* BikeFinder Screenshot 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BikeFinder Screenshot 2.png"; sourceTree = "<group>"; };
+		DE64F05821069ADB00F6907A /* BikeFinder Screenshot 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BikeFinder Screenshot 1.png"; sourceTree = "<group>"; };
 		FB777048FDC7864C9094F95F /* Pods-BikeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeFinder/Pods-BikeFinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +101,9 @@
 				DE3CB3F22005D09C0062429D /* Assets.xcassets */,
 				DE3CB3F42005D09C0062429D /* LaunchScreen.storyboard */,
 				DE3CB3F72005D09C0062429D /* Info.plist */,
+				DE64F05821069ADB00F6907A /* BikeFinder Screenshot 1.png */,
+				DE64F05721069ADA00F6907A /* BikeFinder Screenshot 2.png */,
+				DE64F05621069ADA00F6907A /* BikeFinder Screenshot 3.png */,
 			);
 			path = BikeFinder;
 			sourceTree = "<group>";
@@ -161,10 +170,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE64F05B21069ADB00F6907A /* BikeFinder Screenshot 1.png in Resources */,
+				DE64F05921069ADB00F6907A /* BikeFinder Screenshot 3.png in Resources */,
 				DEB64B24200720BB002D6B70 /* Info.plist in Resources */,
 				DE3CB3F62005D09C0062429D /* LaunchScreen.storyboard in Resources */,
 				DE3CB3F32005D09C0062429D /* Assets.xcassets in Resources */,
 				DE3CB3F12005D09C0062429D /* Main.storyboard in Resources */,
+				DE64F05A21069ADB00F6907A /* BikeFinder Screenshot 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import Alamofire
 import MapKit
 import CoreLocation
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
     
     @IBOutlet weak var map: MKMapView!
     var stationQuantity: [String: Any] = [:]
@@ -50,11 +50,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                             annotation.coordinate.longitude = eachItem["lon"] as! CLLocationDegrees
                             
                             let stationID = eachItem["station_id"] as! String
-                            
+                            //print(stationID)
                             let numBikes = self.stationQuantity[stationID]!
+                            let numDocks = self.stationDocks[stationID]!
                             let numBikesToString = String(describing: numBikes)
+                            let numDocksToString = String(describing: numDocks)
                             
-                            annotation.title = numBikesToString
+                            annotation.title = "\(numBikesToString) bikes"
+                            annotation.subtitle = "\(numDocksToString) docks"
                             let mySpot = self.manager.location
                             let annotationSpot = CLLocation(latitude: annotation.coordinate.latitude, longitude: annotation.coordinate.longitude)
                             let distance = mySpot?.distance(from: annotationSpot)
@@ -114,6 +117,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    
     
     @IBAction func printStationDocks(_ sender: Any) {
         print(stationDocks)
